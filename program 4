@@ -1,0 +1,6 @@
+Costprice=int(input("ENTER THE COST PRICE:"))
+Sellingprice=int(input("ENTER THE SELLING PRICE:"))
+profit = Sellingprice-Costprice
+Inc_Sellingprice=0.05*Sellingprice+Sellingprice
+print("profit:"profit,end='\n')
+print("NEW SELLING PRICE:"Inc_Sellingprice)
