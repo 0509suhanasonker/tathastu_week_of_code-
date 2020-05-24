@@ -1,0 +1,12 @@
+name=str(input()) 
+branch =str(input()) 
+gender=str(input()) 
+college=str(input()) 
+age=int(input()) 
+print(name,end='\n')
+print(branch,end='\n') 
+print(gender,end='\n') 
+print(college ,end='\n') 
+print(age,end='\n') 
+
+
