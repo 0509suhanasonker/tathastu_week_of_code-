@@ -1,0 +1,8 @@
+for i in range (1,4):
+runs=int(input("scored run by the player in 60 balls"))
+strike_rate=(runs/60)*100
+more_runs=int((strike_rate/100)*120)
+maximum_six=runs//6
+print(strike_rate)
+print(more_runs)
+print(maximum_six)
