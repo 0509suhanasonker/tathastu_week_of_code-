@@ -1,0 +1,9 @@
+N=int(input("ENTER THE VALUE OF N:"))
+x=0
+y=1
+print("THE FIBONACCI SERIES UPTO",N,"th NUMBER IS FOLLOWING:")
+for i in range (N):
+ print(x, end=" ")
+ z=x+y
+ x=y
+ y=z
